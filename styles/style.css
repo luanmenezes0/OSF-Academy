@@ -1,0 +1,38 @@
+.navbar_top{
+    background-color: #ffffff;
+    display: flex;
+    padding: 16px;
+    font-family: sans-serif;
+    color: black;
+  }
+
+  .Navbar__Items{
+      display: flex;
+  }
+
+  .Navbar__Link {
+    padding-right: 8px;
+  }
+
+  .Navbar__Link-brand{
+    height: 46px;
+    width: 46px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .navbar_bottom{
+    /*display: flex;*/
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 56px;
+    background-color: #262a32;
+    color: white;
+    text-align: center;
+  }
+
+
+ /*media queries*/
+
