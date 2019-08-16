@@ -1,17 +1,16 @@
 .navbar_top{
     background-color: #ffffff;
     display: flex;
-    padding: 16px;
+    align-items: center;
+    width: 100%;
     font-family: sans-serif;
     color: black;
   }
 
-  .Navbar__Items{
-      display: flex;
-  }
-
-  .Navbar__Link {
+  .navbar_top_item {
     padding-right: 8px;
+    display: none;
+    flex-direction: column;
   }
 
   .Navbar__Link-brand{
@@ -21,8 +20,16 @@
     margin-right: auto;
   }
 
+  .Navbar__Link-toggle{
+    align-self: flex-end;
+    display: initial;
+    cursor: pointer;
+  }
+
   .navbar_bottom{
-    /*display: flex;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -30,7 +37,6 @@
     height: 56px;
     background-color: #262a32;
     color: white;
-    text-align: center;
   }
 
 
