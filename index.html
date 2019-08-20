@@ -1,83 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <meta charset="utf-8">
+	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>OSF Academy</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="styles/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles\styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://kit.fontawesome.com/2bb74d073d.js"></script>
-      
+    <script src="https://kit.fontawesome.com/2bb74d073d.js"></script>
+    <title>OSF Academy</title>
 </head>
 <body>
-
-      <nav> <!------Main Header------>
-          	<div>
-                  <i class="fa fa-bars"></i>
-            </div>
-
-            <ul class="firstLevelMenu">
-			<li><a href="#">SERVICES<i class="fa fa-sort-desc"></i></a>
-
-				<ul  class="secondLevelMenu">
-				<li><a href="#">Product Categories <i class="fa fa-sort-desc"></i></a>
-					<ul class="thirdLevelMenu"> 
-						<li><a href="#">Product 1</a></li>
-						<li><a href="#">Product 2</a></li>
-						<li><a href="#">Product 3</a></li>
-						<li><a href="#">Product 4</a></li>
+       <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<!-- Navbar brand -->
+		<a class="navbar-brand" href="#">
+			<img src="images/logo_main.svg" width="35" height="35" class="d-inline-block align-top" alt="">
+			<span>OSF</span> <span>ACADEMY</span>
+		</a>
+		<!-- Collapse button -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+		  aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- Collapsible content -->
+		<div class="collapse navbar-collapse" id="basicExampleNav">
+		  <!-- Links -->
+		  <ul class="navbar-nav mr-auto">
+			  			<!-- Dropdown -->
+			<li class="nav-item active dropdown multi-level-dropdown">
+				<a href="#" id="menu" data-toggle="dropdown" class="nav-link dropdown-toggle w-100">PRODUCTS</a>
+				<ul class="dropdown-menu mt-2 rounded-0 .bg-dark border-0 z-depth-1">
+					<li class="dropdown-item dropdown-submenu p-0">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle text-warning w-100">PRODUCTS CATEGORIES </a>
+					<ul class="dropdown-menu ml-2 rounded-0 .bg-dark border-0 z-depth-1">
+						<li class="dropdown-item p-0">
+							<a href="#" class="text-warning w-100">Hey</a>
+						</li>
+						<li class="dropdown-item p-0">
+							<a href="#" class="text-warning w-100">Hi</a>
+						</li>
+						<li class="dropdown-item dropdown-submenu p-0">
+							<a href="#" data-toggle="dropdown" class="dropdown-toggle text-warning w-100">Hello </a>
+						<ul class="dropdown-menu mr-2 rounded-0 .bg-dark border-0 z-depth-1 r-100 ">
+							<li class="dropdown-item p-0">
+								<a href="#" class="text-warning w-100">Some</a>
+							</li>
+							<li class="dropdown-item p-0">
+								<a href="#" class="text-warning w-100">Text</a>
+							</li>
+						</ul>
+						</li>
 					</ul>
-				</li>
-				<li><a href="#">Sale<i class="fa fa-sort-desc"></i></a>
-					<ul class="thirdLevelMenu">
-						<li><a href="#">Product 1</a></li>
-						<li><a href="#">Product 2</a></li>
-						<li><a href="#">Product 3</a></li>
-						<li><a href="#">Product 4</a></li>
+					</li>
+					<li class="dropdown-item dropdown-submenu">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle text-warning w-100">SALES </a>
+					<ul class="dropdown-menu mr-2 rounded-0  .bg-dark border-0 z-depth-1 r-100 ">
+						<li class="dropdown-item p-0">
+						<a href="#" class="text-warning w-100">How</a>
+						</li>
+						<li class="dropdown-item p-0">
+						<a href="#" class="text-warning w-100">are</a>
+						</li>
+						<li class="dropdown-item p-0">
+						<a href="#" class="text-warning w-100">you </a>
+						</li>
 					</ul>
-				</li> 
+					</li>
 				</ul>
 			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">COMPANY
+				<span class="sr-only">(current)</span>
+			  </a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">LIBRARY</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">CONTACT US</a>
+			</li>
 
-            <li><a href="#">COMPANY<i class="fa fa-sort-desc"></i></a></li>
-            <li><a href="#">LIBRARY<i class="fa fa-sort-desc"></i></a></li>
-            <li><a href="#">CONTACT US<i class="fa fa-sort-desc"></i></a></li>
-        	</ul>
-      </nav>
-
-      <nav class="navbar_bottom"> <!----------- mobile bottom navbar------------->
-		<div>
-			<i class="fas fa-search"></i>
+		  </ul>
 		</div>
-		<div>
-			<i class="far fa-user"></i>
-		</div>
-		<div>
-			<i class="far fa-heart"></i>
-		</div>
-		<div>
-			<i class="fas fa-shopping-cart"></i>
-		</div>
-      </nav>
+		<!-- Collapsible content -->
+	  </nav>
+	  <!--/.Navbar-->
 
+ <!---<footer>
 
-      <footer>
+		<nav> 
+			<p>© Copyright 2019.<br>
+			All Rights Reserved. </p>
 
-		<nav> <!--------------Contacts-------------------->
-			© Copyright 2019.<br>
-			All Rights Reserved.<br><br>
+			<p>CONTACTS</p>
+			Headquarters:
+			5600, Blvd. des Galeries, Bur 530 Québec, Québec G2K 2H6
 
-			CONTACTS<br><br>
-			Headquarters:<br>
-			5600, Blvd. des Galeries, Bur 530 Québec, Québec G2K 2H6 <br><br>
-
-			<a>contact@osf-global.com</a><br>
-			<a>+1 (888) 548-4344</a><br>
+			<p><a>contact@osf-global.com</a></p>
+			<p><a>+1 (888) 548-4344</a></p>
 		</nav>
 
-		<nav> <!----------Products Categories------------->
+		<nav> 
 
 			<div class="dropdown-menu">
 				<h6 class="dropdown-header">CATEGORIES</h6>
@@ -101,7 +124,7 @@
 			</div>
 		</nav>
 
-		<nav> <!--------------ABOUT SECTION------------------->
+		<nav> 
 			ABOUT<br>
 			<ul>
 				<li>About us</li>
@@ -111,18 +134,18 @@
 			</ul>
 		</nav>
 
-		<nav><!------------SOCIAL MEDIA LINKS----------------->
+		<nav>
 			<i class="fab fa-facebook-f"></i>
 			<i class="fab fa-google-plus-g"></i>
 			<i class="fab fa-twitter"></i>
 			<i class="fab fa-pinterest-p"></i>
 		</nav>
 
-      </footer>
-      
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-	<script src="scripts/app.js"></script>
+      </footer> -->
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="scripts/indexScript.js"></script>
 </body>
 </html>

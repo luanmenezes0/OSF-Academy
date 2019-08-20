@@ -7,6 +7,7 @@
  */
 html {
   box-sizing: border-box;
+  font-display: 'lato', sans-serif;
 }
 
 /**
@@ -25,12 +26,12 @@ html {
  * Basic styles for links
  */
 a {
-  color: $text-color-primary;
+  /* color: $text-color-primary; */
   text-decoration: none;
 
   @include on-event {
-    /* color: $text-color-primary; */
-    text-decoration: underline;
+/*  color: $text-color-primary;*/
+    text-decoration: underline; 
   }
 }
 
