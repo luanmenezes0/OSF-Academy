@@ -25,18 +25,18 @@ html {
 /**
  * Basic styles for links
  */
-a {
-  /* color: $text-color-primary; */
+/* a {
+  color: $text-color-primary;
   text-decoration: none;
 
   @include on-event {
-/*  color: $text-color-primary;*/
-/*     text-decoration: underline;  */
+    color: $text-color-primary;
+    text-decoration: underline;
   }
 }
 
 ul{
-/*   list-style-type: none; */
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -44,3 +44,4 @@ ul{
 i{
   font-size: 1.5em;
 }
+ */
