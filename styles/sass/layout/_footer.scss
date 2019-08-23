@@ -2,10 +2,91 @@
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
 
-.footer{
-    background-color: #ffffff;
-    color: #252a30;
-    display: block;
-    margin: 40px auto 40px auto;
-
-}
+footer{
+    position: relative;
+    bottom: 55px;
+    width: 100%;
+    height: 300px; 
+    background-color:white; 
+  }
+  
+  .panel, .flip {
+    margin-left: 10px;
+    text-align: left;
+    background-color: white;
+    border: solid 1px rgba(255, 255, 255, 0);
+  }
+  
+  .flip{
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  .panel {
+    padding: 15px;
+    display: none;
+  }
+  
+  .copyright  {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  
+  a:link{
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .icons-social {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  i{
+    color: grey;
+    padding: 5px 8px;
+    font-size: 1em;
+  }
+  
+  
+  @media only screen and (min-width: 768px) {
+    footer {
+      display: flex;
+      max-height: 250px;
+      justify-content: space-evenly;
+    }
+  
+    .footer-categories
+    .footer-about{
+      line-height: 2.3em;
+    }
+    
+    .panel {
+      display: inline-block; 
+      padding: 1px;
+    }
+  
+    .product-list ul{
+      column-count: 3;
+      column-gap: 20px;
+    }
+  
+    .copyright  {
+      padding-top: 5px;
+      text-align: left;
+      font-size: 0.8rem;
+      margin-left: 1rem;
+    }
+  
+    ul{
+      padding: 12px;
+    }
+  
+  }
+  
