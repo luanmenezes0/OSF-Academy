@@ -1,3 +1,29 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+
+.btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+  
+button:hover {
+    background-color: green;
+}
+
+
+fa-facebook-f{
+    color: #355b99; 
+}
+
+button:hover,
+button:focus {
+    
+}
+

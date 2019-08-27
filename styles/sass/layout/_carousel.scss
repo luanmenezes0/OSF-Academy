@@ -12,6 +12,8 @@
   .carosel-caption{
     text-align: left;
   }
+
+  
    
   
   @media screen and (min-width: 768px) {
@@ -64,7 +66,7 @@
       justify-content: space-between;
     }
   
-    .first-content-social div{
+    button{
       display: inline-block;
       align-self: center;
       color: #355a96;
