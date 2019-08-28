@@ -4,26 +4,27 @@
 
 
 .btn {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50px;
 }
+
+.first-content-social button{
+    background-color: white;
+    color: #355b99;
+    font-weight: 500;
+    border: solid  2px #355b99; 
+}
   
-button:hover {
-    background-color: green;
+.first-content-social button:hover {
+    background-color: #355b99;
+    color: white;
 }
 
-
-fa-facebook-f{
+ i fa-facebook-f{
     color: #355b99; 
+    margin-right: 4px;
 }
 
-button:hover,
-button:focus {
-    
-}
 

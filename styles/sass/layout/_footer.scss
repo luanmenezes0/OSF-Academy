@@ -30,6 +30,8 @@ footer{
   .copyright  {
     text-align: center;
     font-size: 0.8rem;
+    margin-top: 10px;
+    
   }
   
   a:link{
@@ -46,9 +48,10 @@ footer{
     justify-content: center;
     overflow: hidden;
     position: relative;
+    margin-top: 10px;
   }
   
-  i{
+  .icons-social i{
     color: grey;
     padding: 5px 8px;
     font-size: 1em;

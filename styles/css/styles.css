@@ -9901,6 +9901,7 @@ footer {
 .copyright {
   text-align: center;
   font-size: 0.8rem;
+  margin-top: 10px;
 }
 
 a:link {
@@ -9917,9 +9918,10 @@ ul {
   justify-content: center;
   overflow: hidden;
   position: relative;
+  margin-top: 10px;
 }
 
-i {
+.icons-social i {
   color: grey;
   padding: 5px 8px;
   font-size: 1em;
@@ -10091,21 +10093,27 @@ i {
   }
 }
 .btn {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
   text-align: center;
   font-size: 16px;
   cursor: pointer;
   border-radius: 50px;
 }
 
-button:hover {
-  background-color: green;
+.first-content-social button {
+  background-color: white;
+  color: #355b99;
+  font-weight: 500;
+  border: solid 2px #355b99;
 }
 
-fa-facebook-f {
+.first-content-social button:hover {
+  background-color: #355b99;
+  color: white;
+}
+
+i fa-facebook-f {
   color: #355b99;
+  margin-right: 4px;
 }
 
 .osf-banner {
@@ -10116,7 +10124,7 @@ fa-facebook-f {
   width: 100%;
   height: 100%;
   padding: 0;
-  margin: 0;
+  margin-top: 30px;
 }
 
 .banner-text-block {
@@ -10140,19 +10148,19 @@ fa-facebook-f {
 
 .products-title {
   background-color: #262a32;
-  /*     padding: 20px 50px; */
+  padding: 20px 50px;
 }
 
-.products-title h4 {
+.products-title h5 {
   width: 100%;
   text-align: center;
   color: white;
-  /*     border-bottom: 1px solid grey;  */
+  border-bottom: 1px solid grey;
   line-height: 0.1em;
   margin: 10px 0 20px;
 }
 
-.products-title h4 span {
+.products-title h5 span {
   background: #262a32;
   padding: 0 10px;
 }
@@ -10162,15 +10170,11 @@ fa-facebook-f {
   flex-direction: column;
   justify-content: center;
   background-color: #262a32;
-  padding: 20px 50px 20px 50px;
+  padding: 5px 50px 20px 50px;
 }
 
 .card {
   margin: 10px;
-}
-
-.btn {
-  border: solid 1px red;
 }
 
 .overlay {
