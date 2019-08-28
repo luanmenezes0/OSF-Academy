@@ -1,79 +1,77 @@
 
-.carousel-item img{
+#carouselExampleIndicators img{
     object-fit: cover;
     object-position: 100% 0;
     height: 500px;
-  }
+}
   
-  .first-content-desktop{
+.first-content-desktop{
     display: none;
-  }
+}
   
-  .carosel-caption{
+.carosel-caption{
     text-align: left;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .first-content{
+    display: flex;
+    margin: 30px 50px;
   }
 
-  
-   
-  
-  @media screen and (min-width: 768px) {
-  
-    .first-content{
-      display: flex;
-      margin: 30px 50px;
-    }
-  
-    .carousel-content{
-      width: 88%;
-    }
-  
-    .carousel-item img{
-      object-fit: cover;
-      object-position: 100% 0;
-      border-radius: 5px;
-      width: 300px;
-    }
-  
-    .first-content-desktop{
-      display: flex;
-      flex-direction: column;
-      margin-left: 30px;
-      text-align: center;
-    }
-  
-    .sales-box{
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: space-evenly;
-      background-color: #85be1d;
-      height: 65%;
-      border-radius: 8px;
-      margin-bottom: 30px;
-      color: white;
-      font-size: 1.5em;
-    }
-  
-    .sales-box h1{
-      font-weight: 700;
-      font-size: 6rem;
-    }
-  
-    .first-content-social{
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: space-between;
-    }
-  
-    button{
-      display: inline-block;
-      align-self: center;
-      color: #355a96;
-      height: 40px;
-      width: 150px;
-      border: 2px solid #355a96;
-      border-radius: 18px;
-    }
-  
+  .carousel-content{
+    width: 88%;
   }
+
+#carouselExampleIndicators img{
+    object-fit: cover;
+    object-position: 100% 0;
+    border-radius: 5px;
+    width: 300px;
+  }
+
+  .first-content-desktop{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    text-align: center;
+  }
+
+  .sales-box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: #85be1d;
+    height: 65%;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 1.5em;
+  }
+
+  .sales-box h1{
+    font-weight: 700;
+    font-size: 6rem;
+  }
+
+  .first-content-social{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+  }
+
+  button{
+    display: inline-block;
+    align-self: center;
+    color: #355a96;
+    height: 40px;
+    width: 150px;
+    border: 2px solid #355a96;
+    border-radius: 18px;
+  }
+
+}

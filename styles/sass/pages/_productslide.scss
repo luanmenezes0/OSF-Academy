@@ -1,0 +1,23 @@
+.productslider{
+    background-color: #262a32;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+  
+.productslider span { 
+    background: #262a32; 
+    color: white;
+}
+  
+.fa-chevron-left
+.fa-chevron-right {
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+}
+
+@media sreen, (max: 768px){
+    .productslider .card{
+        width: 70%;
+    }
+}

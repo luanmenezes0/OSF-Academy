@@ -3,11 +3,16 @@
 // -----------------------------------------------------------------------------
 
 
-.btn {
+.card .btn {
     text-align: center;
     font-size: 16px;
     cursor: pointer;
     border-radius: 50px;
+    
+}
+
+.card .btn a :hover{
+    border: solid 2px #e5e5e5;
 }
 
 .first-content-social button{
