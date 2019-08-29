@@ -33,3 +33,11 @@
 }
 
 
+button{
+    display: inline-block;
+    align-self: center;
+    height: 40px;
+    width: 150px;
+    border: 2px solid $background-color;
+    border-radius: 50px;
+}

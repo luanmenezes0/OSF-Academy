@@ -1,12 +1,4 @@
 
-
-  $( ".flip" ).click(function() {
-    $(".panel" ).slideToggle( "slow");
-  });
-
-
-
-
   (function ($) {
     "use strict";
     // Auto-scroll
@@ -46,3 +38,11 @@
     });
   })
   (jQuery);
+
+
+
+
+  ///////////// GET YEAR
+
+
+  

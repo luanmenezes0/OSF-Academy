@@ -1,0 +1,48 @@
+.error-msg{
+    background-color: white;
+    width: 90%;
+    height: 390px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    h1{
+        color: $green;
+        font-size: 900%;
+        font-weight: 900;
+    }
+  }
+
+
+  .error-pg{
+    background-color: #f2edea;
+    padding-top: 30px;
+    text-align: center;
+
+    h2 {
+        font-weight: 700;
+        color: #45413e;
+        width: 100%; 
+        text-align: center; 
+        border-bottom: 1px solid white; 
+        line-height: 0.1em;
+        margin: 10px 0 30px; 
+    
+        span { 
+            background:#f2edea; 
+            padding:0 10px;
+        }
+    }
+}
+
+  @media screen and (min-width: 768px) {
+    .error-msg{
+      
+    }
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .error-msg{
+      
+    }
+  }

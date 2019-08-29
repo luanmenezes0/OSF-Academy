@@ -3,39 +3,28 @@
 // -----------------------------------------------------------------------------
 
 
-
+/* -------------------------------MAIN NAVBAR------------------------------------ */
 
 .megamenu {
   position: static;
-}
 
-.megamenu .dropdown-menu {
-  background: none;
-  border: none;
-  width: 100%;
+  .dropdown-menu {
+    background: none;
+    border: none;
+    width: 100%;
+  }
 }
-
 
 #product-categories-list{
   column-count: 2;
   column-gap: 10px;
 }
 
-#megamenulists{
-
-  color: white !important;
-}
-
-
-
-
-
 @media only screen and (min-width: 768px) {
-
-#navbarContent a:hover{
-  background-color: #262a32;
-  color: white;
-  border-bottom: solid 3px #84bc22;
-}
-
+  .navbar-nav > 
+  .nav-link:hover{
+    background-color: $background-color;
+    color: white;
+    border-bottom: solid 3px $green;
+  }
 }

@@ -8,32 +8,23 @@
 $text-font-stack: 'Lato', sans-serif !default;
 
 
-/// Navbar Styles
-
-
-
-
-
-///Background color
+///Colors
 ///@type Color
 $background-color: #262a32;
+
 $primary:#262a32;
 
-/// Copy text color
-/// @type Color
 $text-color-primary: #3f3f3f !default;
 
-/// Light grey
-/// @type Color
-$text-color-secondary: white !default;
+$green: #8abf2c;
 
+$dark-gray: #45413e;
 
 
 
 /// Container's maximum width
 /// @type Length
 $max-width: 1180px !default;
-
 
 
 
@@ -46,8 +37,6 @@ $breakpoints: (
   'medium': 768px,
   'large': 1024px,
 ) !default;
-
-
 
 
 

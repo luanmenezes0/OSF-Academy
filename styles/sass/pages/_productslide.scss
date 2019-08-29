@@ -1,23 +1,29 @@
 .productslider{
+    position: relative;
     background-color: #262a32;
     padding-top: 20px;
     padding-bottom: 20px;
+    overflow: auto;
+
+    span { 
+        background: #262a32; 
+        color: white;
+    }
 }
-  
-.productslider span { 
-    background: #262a32; 
-    color: white;
+
+.carousel-inner small{
+    color: $green;
 }
-  
-.fa-chevron-left
-.fa-chevron-right {
+
+.controls-top i {
     color: #fff;
     text-shadow: 1px 1px 1px #ccc;
     font-size: 1.5em;
 }
 
-@media sreen, (max: 768px){
+@media sreen, (min: 768px){
     .productslider .card{
         width: 70%;
+        min-height: 550px;
     }
 }
