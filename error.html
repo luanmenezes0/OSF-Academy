@@ -13,7 +13,7 @@
 
 	<!-----------------------------------N A V B A R --------------------------------------------->
 	<nav class="navbar navbar-expand-lg navbar-light bg-white py-0 shadow-sm">
-		<a class="navbar-brand" href="#">
+		<a class="navbar-brand" href="index.html">
 			<img src="images/logo_main.svg" width="60" height="60" class="d-inline-block align-top" alt="logo">
 			<img src="images/main_name.png" height="55" alt="logo name" class="d-none d-md-inline-block align-top ">
 		</a>
@@ -81,9 +81,9 @@
 				</div>
 			  </div>
 			</li>
-			<li class="nav-item"><a href="" class="nav-link">COMPANY</a></li>
-			<li class="nav-item"><a href="" class="nav-link">LIBRARY</a></li>
-			<li class="nav-item"><a href="" class="nav-link ">CONTACT US</a></li>
+			<li class="nav-item"><a href="error.html" class="nav-link">COMPANY</a></li>
+			<li class="nav-item"><a href="error.html" class="nav-link">LIBRARY</a></li>
+			<li class="nav-item"><a href="error.html" class="nav-link ">CONTACT US</a></li>
 		  </ul>
 		</div>
 		<div class="d-none d-md-inline-block align-top ">
@@ -104,19 +104,21 @@
 
 		<nav aria-label="breadcrumb">
 			<ol class="breadcrumb ">
-				<li class="breadcrumb-item ml-auto"><a href="#">Home</a></li>
+				<li class="breadcrumb-item ml-auto"><a href="index.html">Home</a></li>
 				<li class="breadcrumb-item active mr-auto" aria-current="page">404</li>
 			</ol>
 		</nav>
 
 		<h2><span>404</span></h2>
 
-		<div class="error-msg row">
-			<div class="ops col-4">
+		<div class="error-msg">
+
+
+			<div class="ops text-center">
 				<h1>Oops!</h1> 
 			</div>
 
-			<div class="col-8">
+			<div class="errortext">
 				<h3>Sorry, this page could not be found!</h3>
 				<p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
 						dis parturient montes, nascetur ridiculus mus.</p>
@@ -124,10 +126,15 @@
 					Aenean massa. 
 				</p>
 	
-				<p>Go back to Homepage</p>
+				<a href="index.html"><p>Go back to Homepage</p></a>
 	
 				<h3>Search our site</h3>
-				<div>SEARCH <i class="fas fa-search"></i></div>
+
+				<form>
+					<input class="search-form btn" type="text" name="search" value="Search">
+				</form>
+
+				<!-- <i class="fas fa-search"></i> -->	
 			</div>
 			
 		</div>	
@@ -140,7 +147,7 @@
 	<!----------------------------------- S E R V I C E S ------------------------------------------->
 
 	<!-------------------------------------------F O O T E R ---------------------------------------------->
-<!-- 	<footer>
+	<footer>
 		<div class="footer-contact">
 			<div class="copyright">
 				<p>Copyright <span id="year">TEXT</span></p>
@@ -151,8 +158,8 @@
 			<div class="panel"id="footerp1">			
 				Headquarters:<br>
 				5600, Blvd. des Galeries, Bur 530 Québec, Québec G2K 2H6<br><br>
-				<a>contact@osf-global.com</a><br><br>
-				<a>+1 (888) 548-4344</a>
+				<a href="mailto:contact@osf-global.com?cc=contact@osf-global.com&subject=hello">contact@osf-global.com</a><br><br>
+				<a href="tel:1 (888) 548-4344">+1 (888) 548-4344</a>
 			</div>
 		</div>
 
@@ -160,23 +167,23 @@
 			<div class="flip">CATEGORIES</div>
 			<nav class="panel product-list">
 				<ul>
-					<li><a href="#">Alcohol</a></li>
-					<li><a href="#">Art</a></li>
-					<li><a href="#">Books</a></li>
-					<li><a href="#">Drink</a></li>
-					<li><a href="#">Electronics</a></li>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Jewelry</a></li>
-					<li><a href="#">Kids & Baby</a></li>
-					<li><a href="#">Men's Fashion</a></li>
-					<li><a href="#">Mobile</a></li>
-					<li><a href="#">Motorcycles</a></li>
-					<li><a href="#">Movies</a></li>
-					<li><a href="#">Music</a></li>
-					<li><a href="#">Sport</a></li>
-					<li><a href="#">Toys</a></li>
-					<li><a href="#">Travel</a></li>
-					<li><a href="#">Women's Fashion</a></li>
+					<li><a href="error.html">Alcohol</a></li>
+					<li><a href="error.html">Art</a></li>
+					<li><a href="error.html">Books</a></li>
+					<li><a href="error.html">Drink</a></li>
+					<li><a href="error.html">Electronics</a></li>
+					<li><a href="error.html">Home</a></li>
+					<li><a href="error.html">Jewelry</a></li>
+					<li><a href="error.html">Kids & Baby</a></li>
+					<li><a href="error.html">Men's Fashion</a></li>
+					<li><a href="error.html">Mobile</a></li>
+					<li><a href="error.html">Motorcycles</a></li>
+					<li><a href="error.html">Movies</a></li>
+					<li><a href="error.html">Music</a></li>
+					<li><a href="error.html">Sport</a></li>
+					<li><a href="error.html">Toys</a></li>
+					<li><a href="error.html">Travel</a></li>
+					<li><a href="error.html">Women's Fashion</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -185,23 +192,23 @@
 			<div class="flip">ABOUT</div>
 			<nav class="panel">
 				<ul>
-					<li><a href="#">About us</a></li>
-					<li><a href="#">Delivery</a></li>
-					<li><a href="#">Testimonials</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="error.html">About us</a></li>
+					<li><a href="error.html">Delivery</a></li>
+					<li><a href="error.html">Testimonials</a></li>
+					<li><a href="error.html">Contact</a></li>
 				</ul>
 			</nav>
 		</div>
 
 
 		<nav class="icons-social">
-			<i class="fab fa-facebook-f"></i>
-			<i class="fab fa-google-plus-g"></i>
-			<i class="fab fa-twitter"></i>
-			<i class="fab fa-pinterest-p"></i>
+			<a href="https://www.facebook.com/OSFGlobalServices/"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.google.com/"><i class="fab fa-google-plus-g"></i></a>
+			<a href="https://twitter.com/osfglobal?lang=en"><i class="fab fa-twitter"></i></a>
+			<a href="https://in.pinterest.com/osfglobal/"><i class="fab fa-pinterest-p"></i></a>
 		</nav>
 
-	</footer> -->
+	</footer>
 	<!-------------------------------------------/F O O T E R ---------------------------------------------->
 
 

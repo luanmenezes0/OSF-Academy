@@ -17,14 +17,18 @@
 
 .first-content-social button{
     background-color: white;
-    color: #355b99;
     font-weight: 500;
-    border: solid  2px #355b99; 
+    border: solid  2px #355b99;
+    a{
+        color: #355b99
+    }
 }
   
 .first-content-social button:hover {
     background-color: #355b99;
-    color: white;
+    a{
+        color: white;
+    }
 }
 
  i fa-facebook-f{
@@ -34,10 +38,21 @@
 
 
 button{
-    display: inline-block;
     align-self: center;
     height: 40px;
     width: 150px;
     border: 2px solid $background-color;
     border-radius: 50px;
+}
+
+
+.loadbtn{
+    background-color: transparent;
+    border: white solid 2px;
+    margin: 20px 0 10px;
+
+    a{
+        color: white;
+    }
+
 }

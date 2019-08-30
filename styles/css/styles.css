@@ -9832,10 +9832,10 @@ body {
   }
 }
 footer {
-  position: relative;
+  position: initial;
   bottom: 55px;
   width: 100%;
-  height: 270px;
+  height: 300px;
   background-color: white;
 }
 footer li {
@@ -10057,13 +10057,17 @@ footer li {
 
 .first-content-social button {
   background-color: white;
-  color: #355b99;
   font-weight: 500;
   border: solid 2px #355b99;
+}
+.first-content-social button a {
+  color: #355b99;
 }
 
 .first-content-social button:hover {
   background-color: #355b99;
+}
+.first-content-social button:hover a {
   color: white;
 }
 
@@ -10073,12 +10077,20 @@ i fa-facebook-f {
 }
 
 button {
-  display: inline-block;
   align-self: center;
   height: 40px;
   width: 150px;
   border: 2px solid #262a32;
   border-radius: 50px;
+}
+
+.loadbtn {
+  background-color: transparent;
+  border: white solid 2px;
+  margin: 20px 0 10px;
+}
+.loadbtn a {
+  color: white;
 }
 
 /*--------------------------  BANNER ---------------------------------*/
@@ -10178,6 +10190,8 @@ button {
 }
 
 .overcard {
+  display: flex;
+  align-items: flex-end;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -10185,9 +10199,12 @@ button {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
+  opacity: 0.9;
   transition: 0.5s ease;
   background-image: linear-gradient(to top, #675b99 0%, #dc5987 100%);
+}
+.overcard p {
+  align-self: baseline;
 }
 
 @media only screen and (min-width: 768px) {
@@ -10300,12 +10317,48 @@ select {
   margin-bottom: 12px;
 }
 
-.color {
+.color-select div:nth-of-type(1) {
+  background: white;
+}
+
+.color-select div:nth-of-type(2) {
+  background: blue;
+}
+
+.color-select div:nth-of-type(3) {
+  background: black;
+}
+
+.color-select div:nth-of-type(4) {
+  background: green;
+}
+
+.color-select div:nth-of-type(5) {
+  background: purple;
+}
+
+.color-select div:nth-of-type(6) {
+  background: orange;
+}
+
+.color-select div:nth-of-type(7) {
   background: red;
+}
+
+.color-select div:nth-of-type(8) {
+  background: beige;
+}
+
+.color {
   width: 15px;
   height: 15px;
   border-radius: 50%;
   margin: 5px;
+  cursor: pointer;
+}
+
+.color-select div:hover {
+  border: 3px black solid;
 }
 
 .products-services {
@@ -10351,39 +10404,80 @@ select {
     height: 130px;
   }
 }
+.error-pg {
+  background-color: #f2edea;
+  padding: 20px 0 40px;
+  height: 100%;
+}
+.error-pg h2 {
+  font-weight: 700;
+  color: #45413e;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid white;
+  line-height: 0.1em;
+  margin: 10px 0 30px;
+}
+.error-pg h2 span {
+  background: #f2edea;
+  padding: 0 10px;
+}
+
 .error-msg {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   width: 90%;
-  height: 390px;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 30px 0;
+  margin: 10px auto 20px;
+  height: auto;
 }
-.error-msg .ops h1 {
+
+.ops {
+  display: flex;
+  align-content: center;
+  margin: 30px;
+}
+.ops h1 {
   color: #8abf2c;
-  font-size: 900%;
+  font-size: 7.5rem;
+  font-weight: 900;
+  width: 100%;
+}
+
+.errortext {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 20px;
+}
+.errortext h3 {
   font-weight: 900;
 }
+.errortext a {
+  color: #8abf2c;
+}
 
-/*   .error-pg{
-    background-color: #f2edea;
-    padding-top: 30px;
-    text-align: center;
+.search-form {
+  border: 2px solid #f2edea;
+  border-radius: 50px;
+  height: 40px;
+  width: 96%;
+  color: #45413e;
+  display: inline-block;
+  align-self: center;
+  text-align: justify;
+  margin-top: 20px;
+}
 
-    h1 {
-        font-weight: 700;
-        color: #45413e;
-        width: 100%; 
-        text-align: center; 
-        border-bottom: 1px solid white; 
-        line-height: 0.1em;
-        margin: 10px 0 30px; 
+@media screen and (min-width: 768px) {
+  .error-msg {
+    flex-direction: row;
+  }
 
-        span { 
-            background:#f2edea; 
-            padding:0 10px;
-        }
-    }
-} */
+  .ops {
+    width: 45%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -65,6 +65,8 @@
 }
 
 .overcard {
+    display: flex;
+    align-items: flex-end;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -72,9 +74,14 @@
     right: 0;
     height: 100%;
     width: 100%;
-    opacity: 0;
+    opacity: 0.9;
     transition: .5s ease;
     background-image: linear-gradient(to top, #675b99 0%, #dc5987 100%);
+
+    p{
+        align-self: baseline;
+        
+    }
 }
 
 @media only screen and (min-width: 768px) {

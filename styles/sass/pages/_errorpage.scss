@@ -1,48 +1,89 @@
-.error-msg{
-    background-color: white;
-    width: 90%;
-    height: 390px;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.error-pg{
+  background-color: #f2edea;
+  padding: 20px 0 40px;
+  height: 100%;
 
-    h1{
-        color: $green;
-        font-size: 900%;
-        font-weight: 900;
+  h2 {
+    font-weight: 700;
+    color: #45413e;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid white; 
+    line-height: 0.1em;
+    margin: 10px 0 30px; 
+  
+    span { 
+      background:#f2edea; 
+      padding:0 10px;
     }
   }
-
-
-  .error-pg{
-    background-color: #f2edea;
-    padding-top: 30px;
-    text-align: center;
-
-    h2 {
-        font-weight: 700;
-        color: #45413e;
-        width: 100%; 
-        text-align: center; 
-        border-bottom: 1px solid white; 
-        line-height: 0.1em;
-        margin: 10px 0 30px; 
-    
-        span { 
-            background:#f2edea; 
-            padding:0 10px;
-        }
-    }
 }
 
-  @media screen and (min-width: 768px) {
-    .error-msg{
-      
-    }
+.error-msg{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 90%;
+  padding: 30px 0;
+  margin: 10px auto 20px;
+  height: auto;
+
+}
+
+.ops{
+  display: flex;
+  align-content: center; 
+  margin: 30px;
+
+  h1{
+    color: $green;
+    font-size: 7.5rem;
+    font-weight: 900;
+    width: 100%;
   }
+}
+
+.errortext{
+  display: flex;
+  flex-direction: column;
+  align-content: center; 
+  margin: 20px;
+
+  h3{
+    font-weight: 900;
+  }
+
+  a{
+    color: $green;
+  }
+
+}
+
+.search-form{
+  border: 2px solid #f2edea;
+  border-radius: 50px;
+  height: 40px;
+  width: 96%;
+  color: #45413e;
+  display: inline-block;
+  align-self: center;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .error-msg{
+    flex-direction: row;
+  }
+
+  .ops{
+    width: 45%;
+  }
+}
   
-  @media screen and (min-width: 1024px) {
-    .error-msg{
-      
-    }
+@media screen and (min-width: 1024px) {
+  .error-msg{
+    
   }
+}

@@ -75,13 +75,27 @@ select{
     margin-bottom: 12px;
   
   }
+
+  .color-select div:nth-of-type(1){background: white;}
+  .color-select div:nth-of-type(2){background: blue;}
+  .color-select div:nth-of-type(3){background: black;}
+  .color-select div:nth-of-type(4){background: green;}
+  .color-select div:nth-of-type(5){background: purple;}
+  .color-select div:nth-of-type(6){background: orange;}
+  .color-select div:nth-of-type(7){background: red;}
+  .color-select div:nth-of-type(8){background: beige;}
   
+
   .color {
-    background: red;
     width: 15px;   
     height: 15px; 
     border-radius: 50%;
     margin: 5px;
+    cursor: pointer;
+  }
+
+  .color-select div:hover{
+    border: 3px black solid;
   }
 
   .products-services{
